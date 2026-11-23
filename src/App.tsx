@@ -24,14 +24,14 @@ const CHARACTER: string | null = null;
 // Kosong dulu. Setiap kali selesai membuat web, salin template di bawah ke dalam array ini.
 // Hero dan bagian Karya akan terisi otomatis.
 const PROJECTS: Project[] = [
-    // {
-    //     title: 'Nama proyek',
-    //     kind: 'Website',
-    //     text: 'Satu kalimat masalahnya, satu kalimat hasilnya.',
-    //     stack: ['Laravel', 'React'],
-    //     shot: '/images/shots/nama-proyek.webp',
-    //     demo: 'https://alamat-proyek.com',
-    // },
+    {
+        title: 'Topi Lokal',
+        kind: 'Website',
+        text: 'Toko topi dengan keranjang dan checkout lewat WhatsApp.',
+        stack: ['React', 'TypeScript', 'Vite'],
+        shot: '/images/topi.webp',
+        demo: 'https://web-pembelian-topi.vercel.app',
+    },
 ];
 
 const STACK = ['Laravel', 'React', 'TypeScript', 'Inertia', 'MySQL', 'Docker', 'Tailwind CSS', 'Git'];
